@@ -3,7 +3,7 @@ from firebase_admin import credentials,db
 
 cred = credentials.Certificate("servicekey.json")
 firebase_admin.initialize_app(
-    cred, {"databaseURL": "https://stuattend-default-rtdb.firebaseio.com/"}
+    cred, {"databaseURL": ""}
 )
 
 ref=db.reference('student')
